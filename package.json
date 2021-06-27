@@ -1,0 +1,18 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "otp time generator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "umar jere",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "totp-generator": "^0.0.9"
+  }
+}
